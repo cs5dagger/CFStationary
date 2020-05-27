@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="CFS"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:id="@+id/business_name"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/business_name"
+        app:srcCompat="@drawable/stat"
+        tools:srcCompat="@drawable/stat"
+        android:id="@+id/b_image"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b_image"
+        android:text="We provide all sort of stationary at very affordable prices. Some of the stationary items :"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/intro"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/intro"
+        android:layout_marginLeft="50dp"
+        android:textSize="22sp"
+        android:id="@+id/items"
+        android:text="Paper Cutters\nPens(all sorts)\nRegisters(big or small)\netc..."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/items"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:id="@+id/contact"
+        android:text="Contact : +91 7989695949"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="\nFind us at : 4th street, Lincoln Avenue"/>
+</RelativeLayout>
